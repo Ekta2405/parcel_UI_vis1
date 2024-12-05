@@ -1,0 +1,82 @@
+* {
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #85d0eb;  /* This is your current background color */
+    background-image: url('https://images.unsplash.com/photo-1604605801370-3396f9bd9cf0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');  /* Replace with your image URL */
+    background-size: cover;  /* Ensures the image covers the entire page */
+    background-position: center;  /* Centers the background image */
+    background-attachment: fixed;  /* Keeps the background fixed during scroll */
+}
+
+.login-container {
+    width: 350px;
+
+    padding: 20px;
+    background: #7a7c7bb2;  /* Slight transparency for container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+    margin: 100px auto;  /* Centers the login container vertically and horizontally */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.role-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    width: 45%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+.dashboard {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
